@@ -1,0 +1,17 @@
+
+# Protect database credentials
+config.php
+Config.php
+
+# Environment files
+.env
+.env.*
+
+# Temporary and backup files
+*.log
+*.bak
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
