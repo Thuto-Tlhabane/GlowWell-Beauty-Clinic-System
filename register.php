@@ -28,8 +28,8 @@ if (
         $message = "Please complete all fields.";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $message = "Please enter a valid email address.";
-    } elseif (strlen($password) < 6) {
-        $message = "Password must be at least 6 characters.";
+    } elseif (strlen($password) < 8) {
+        $message = "Password must be at least 8 characters.";
     } else {
 
         try {
