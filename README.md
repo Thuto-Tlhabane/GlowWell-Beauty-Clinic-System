@@ -79,6 +79,42 @@ These measures have not been independently security-audited.
 
 The `Screenshots` folder contains visual examples of the system's interface and functionality.
 
+### Homepage
+
+![GlowWell Homepage](Screenshots/GlowWell%20Homepage.PNG)
+
+### Customer Registration
+
+![Customer Registration](Screenshots/Customer%20Registration%20page.PNG)
+
+### Appointment Booking
+
+![Appointment Booking](Screenshots/Appointment%20booking%20page.PNG)
+
+### Admin Dashboard
+
+![Admin Dashboard](Screenshots/Admin%20Dashboard.PNG)
+
+### Staff Management
+
+![Staff Management](Screenshots/Staff%20management.PNG)
+
+### Services Management
+
+![Services Management](Screenshots/Services%20management.PNG)
+
+### Appointment Management
+
+![Admin Appointment Management](Screenshots/Admin%20appointment%20management.PNG)
+
+### Staff Schedule Management
+
+![Current Staff Schedule](Screenshots/Current%20Staff%20Schedule.PNG)
+
+### Database Structure
+
+![GlowWell Database Tables](Screenshots/Glowwell%20database%20tables.PNG)
+
 ## Testing
 
 The application was tested locally using XAMPP. The project user guide records 16 manual test cases as passed.
