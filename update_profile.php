@@ -131,6 +131,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 /* Update session name */
                 $_SESSION["customer_name"] = $fullName;
 
+                $_SESSION["csrf_token"] = bin2hex(random_bytes(32));
+
                 $message = "Profile updated successfully.";
 
 
