@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         } elseif (
             !empty($newPassword) &&
-            strlen($newPassword) < 6
+            strlen($newPassword) < 8
         ) {
 
             $message = "The new password must be at least 6 characters.";
@@ -254,7 +254,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             placeholder="Leave blank to keep current password"
         >
 
+        <label>Confirm New Password:</label>
 
+<input
+    type="password"
+    name="confirm_password"
+    placeholder="Confirm your new password"
+>
         <button type="submit">
             Update Profile
         </button>
