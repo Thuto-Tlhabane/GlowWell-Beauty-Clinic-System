@@ -28,7 +28,7 @@ if (
         $message = "Please complete all fields.";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $message = "Please enter a valid email address.";
-    } elseif (strlen($password) < 6) {
+    } elseif (strlen($password) < 8) {
         $message = "Password must be at least 6 characters.";
     } else {
 
@@ -112,6 +112,13 @@ if (
     <input type="password" name="password" required>
     <br><br>
 
+     <label>Confirm New Password:</label>
+
+<input
+    type="password"
+    name="confirm_password"
+    placeholder="Confirm your new password"
+>
     <button type="submit">Register</button>
 
 </form>
